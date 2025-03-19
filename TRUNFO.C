@@ -4,13 +4,7 @@
 // iniciando a programação
 
 int main(){
-//COLOCANDO TITULO DO PROJETO
-
-printf("desafio iniciante\n");
-printf("SUPER TRUNFO\n");
-printf("TEMAS PAÍSES");
-
-// INICIANDO APLICAÇÃO DE VARIÁVEIS ESTRUTURAL
+//COLOCANDO estrutura de variaveis
 
 char PAIS[20];
 char Estado[20];
@@ -19,12 +13,13 @@ char CIDADE[30];
 int População;
 float AREA;
 float PIB;
-int TURISTÍCOS;
+int PONTOS_TURISTICOS;
 
+// COLOCANDO O TITULO DO PRJETO
 
-
-
-
+printf("Desafio Iniciante\n");
+printf("SUPER TRUNFO\n");
+printf("Tema Países\n");
 
 
 
