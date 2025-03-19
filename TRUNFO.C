@@ -22,13 +22,14 @@ printf("SUPER TRUNFO\n");
 printf("Tema Países\n");
 
 // imprimindo opção para o usuário
+// escolha do PAIS 
 printf("CARTA 1\n");
-printf("ESCOLHA O PÁIS\n");
+printf("ESCOLHA O PAIS\n");
 printf("A= ARGENTINA\n,B= BRASIL\n, C= CHILE\n, D= DINAMARCA\n, E= ESPAMHA\n, F= FRANÇA\n, G= GRECIA\n, H= HOLANDA\n");
+scanf("%s",&PAIS);
 
-
-
-
+printf("Digite o Estado \n");
+scanf("%s",&Estado);
 
 
 
