@@ -38,8 +38,58 @@ scanf("%s",&CODIGO);
 printf("Digite o Nome da Cidade: \n");
 scanf("%s",&CIDADE);
 
+//Imprimindo numero população
 printf("Digite o Numero da População\n");
 scanf("%d",&Populacao);
+
+//Imprimindo a ÁREA 
+printf("Digite a ÁREA \n");
+scanf("%f",&AREA);
+
+//Imprimindo o PIB
+printf("Digite o PIB\n");
+scanf("%f",&PIB);
+
+//Imprimindo o Numero de Pontos Turísticos
+printf("Digite o Numero de Pontos Turísticos\n");
+scanf("%d",&PONTOS_TURISTICOS);
+
+//Imprimindo Resultados totais
+printf("CARTA 1\n");
+
+printf("Estado:%s\n",Estado);
+
+printf("Código:%s\n",CODIGO);
+
+printf("Nome da Cidade:%s\n",CIDADE);
+
+printf("Populção:%d\n",Populacao);
+
+printf("ÁREA:%f\n",AREA);
+
+printf("PIB:%f\n",PIB);
+
+printf("Pontos Turísticos:%d\n",PONTOS_TURISTICOS);
+
+printf("CARTA 2\n");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
