@@ -6,7 +6,7 @@
 int main(){
 //COLOCANDO estrutura de variaveis
 
-char PAIS[20];
+
 char Estado[20];
 char CODIGO[5];
 char CIDADE[30];
@@ -24,24 +24,22 @@ printf("Tema Países\n");
 // imprimindo opção para o usuário
 // escolha do PAIS 
 printf("CARTA 1\n");
-printf("ESCOLHA O PAIS:\n");
-printf("A= ARGENTINA\n,B= BRASIL\n, C= CHILE\n, D= DINAMARCA\n, E= ESPAMHA\n, F= FRANÇA\n, G= GRECIA\n, H= HOLANDA\n");
-scanf("%s",&PAIS);
+
 
 // IMPRIMINDO ESCOLHA DO ESTADO
-printf("Digite o Estado:\n");
+printf("Digite o Estado Representado pela letra 'A' ao 'H':\n");
 scanf("%s",&Estado);
 
-// imprimindo escolha do codigo da cidade
-printf("Digite o CODIGO da Cidade de 01 ao 04 Com a Letra da Cidade: \n");
+// imprimindo escolha do codigo da carta
+printf("Digite o CODIGO da Carta de 01 ao 04 Com a Letra do Estado: \n");
 scanf("%s",&CODIGO);
 
+//Imprimindo o nome da Cidade
+printf("Digite o Nome da Cidade: \n");
+scanf("%s",&CIDADE);
 
-
-
-
-
-
+printf("Digite o Numero da População\n");
+scanf("%d",&Populacao);
 
 
 
