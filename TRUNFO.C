@@ -31,7 +31,7 @@ printf("Digite o Estado Representado pela letra 'A' ao 'H':\n");
 scanf("%s",&Estado);
 
 // imprimindo escolha do codigo da carta
-printf("Digite o CODIGO da Carta de 01 ao 04 Com a Letra do Estado: \n");
+printf("Digite o CODIGO da Carta de 01 ao 04 jumto Com a Letra do Estado: \n");
 scanf("%s",&CODIGO);
 
 //Imprimindo o nome da Cidade
@@ -71,30 +71,47 @@ printf("PIB:%f\n",PIB);
 
 printf("Pontos Turísticos:%d\n",PONTOS_TURISTICOS);
 
+
+// INICINADO Carta 2
 printf("CARTA 2\n");
 
+printf("Digite o Estado Representado pela letra 'A' ao 'H'\n");
+scanf("%s",&Estado);
 
+printf("Digite o Código da Carta de 01 ao 04  jumto com a Letra do Estado:\n");
+scanf("%s",&CODIGO);
 
+printf(" Digite o Nome da Cidade:\n");
+scanf("%s",&CIDADE);
 
+printf("Digite o Numero da Populção:\n");
+scanf("%d",&Populacao);
 
+printf("Digite a ÁREA:\n");
+scanf("%f",&AREA);
 
+printf("Digite o PIB:\n");
+scanf("%f",&PIB);
 
+printf("Digite o Numero de Pontos Turísticos:\n");
+scanf("%d",&PONTOS_TURISTICOS);
 
+//Imprimindo Resultados totais Carta 2
+printf("CARTA 2\n");
 
+printf("Estado:%s\n",Estado);
 
+printf("Código:%s\n",CODIGO);
 
+printf("Nome da Cidade:%s\n",CIDADE);
 
+printf("População:%d\n",Populacao);
 
+printf("ÁREA:%f\n",AREA);
 
+printf("PIB:%f\n",PIB);
 
-
-
-
-
-
-
-
-
+printf("Pontos Turísticos:%d\n",PONTOS_TURISTICOS);
 
 
 
