@@ -14,7 +14,7 @@ int Populacao;
 float AREA;
 float PIB;
 int PONTOS_TURISTICOS;
-
+unsigned int CARTA1,CARTA2;
 // COLOCANDO O TITULO DO PRJETO
 
 printf("Desafio Iniciante\n");
@@ -113,6 +113,12 @@ printf("PIB:%f\n",PIB);
 
 printf("Pontos Turísticos:%d\n",PONTOS_TURISTICOS);
 
+if(AREA,PIB,PONTOS_TURISTICOS,Populacao,CARTA1 >CARTA2){
+    printf("CARTA1 VENCEU!\n");
+}
+else{
+    printf("CARTA2 VENCEU!\n");
+}
 
 
 return 0;
